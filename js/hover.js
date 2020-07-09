@@ -1,4 +1,4 @@
-const iw = 300;
+const iw = 1920;
 const aspect = 0.3;
 const wrapper = document.getElementById('image-wrapper');
 const image = document.getElementById('image');
@@ -7,6 +7,7 @@ image.style.width = wrapper.clientWidth + "px";
 image.style.height = wrapper.clientWidth * aspect + "px";
 const magnifier = document.getElementById('magnifier');
 magnifier.style.backgroundSize = wrapper.clientWidth + "px auto";
+image.style.backgroundSize = wrapper.clientWidth + "px auto";
 const infoBox = document.getElementById('info');
 const nextBtn = document.getElementById('next');
 let layers = [];
@@ -23,8 +24,8 @@ $.get("data.json", function (data) {
         }
         if (layerId > -1) {
             layers[layerId].points.push({
-                x: data[i].x * sc,
-                y: data[i].y * sc,
+                x: data[i].x * sc / 1.6765625,
+                y: data[i].y * sc / 1.6765625,
                 r: data[i].r * sc,
             });
         } else {
@@ -33,8 +34,8 @@ $.get("data.json", function (data) {
                 text: data[i].text,
                 question:  data[i].question,
                 points: [{
-                    x: data[i].x * sc,
-                    y: data[i].y * sc,
+                    x: data[i].x * sc / 1.6765625,
+                    y: data[i].y * sc / 1.6765625,
                     r: data[i].r * sc,
                 }]
             });
@@ -46,21 +47,22 @@ $.get("data.json", function (data) {
 
     image.addEventListener('mousemove', function (ev) {
         let bcr = image.getBoundingClientRect();
-        magnifier.style.top = ev.y - bcr.top - 50 + 'px';
-        magnifier.style.left = ev.x - bcr.left - 50 + 'px';
-        magnifier.style.backgroundPositionX = -ev.x + 50 + 'px';
-        magnifier.style.backgroundPositionY = -ev.y + 50 + 'px';
+        magnifier.style.top = ev.y - bcr.top - 49 + 'px';
+        magnifier.style.left = ev.x - bcr.left - 49 + 'px';
+        magnifier.style.backgroundPositionX = -ev.x + 48 + bcr.left  + 'px';
+        magnifier.style.backgroundPositionY = -ev.y + 48 + bcr.top + 'px';
     });
 
     image.addEventListener('click', function (ev) {
         if (st) {
+            let bcr = image.getBoundingClientRect();
             let points = layers[lid].points;
             for (let p = 0; p < points.length; p++) {
                 let r = points[p].r;
-                if (Math.abs(ev.x - points[p].x) < r && Math.abs(ev.y - points[p].y) < r && lid < layers.length - 1) {
+                if (Math.abs(ev.x - bcr.left - points[p].x) < r && Math.abs(ev.y - bcr.top - points[p].y) < r && lid < layers.length - 1) {
+                    infoBox.innerHTML = document.getElementById(layers[lid].text).innerHTML;
                     lid = lid + 1;
                     image.style.backgroundImage = 'url(' + layers[lid].src + ')';
-                    infoBox.innerHTML = document.getElementById(layers[lid].text).innerHTML;
                     if (lid < layers.length - 1) {
                         magnifier.style.backgroundImage = 'url(' + layers[lid + 1].src + ')';
                         nextBtn.classList.remove("disabled");

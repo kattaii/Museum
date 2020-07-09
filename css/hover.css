@@ -1,23 +1,37 @@
+.container {
+    width: 979px!important;
+    background-color: #f3f3f3;
+}
 .wrapper {
     position: relative;
     overflow: hidden;
 }
 #image {
     background-repeat: no-repeat;
-    background-size: cover;
 }
 #magnifier {
-    width: 100px;
-    height: 100px;
+    width: 98px;
+    height: 98px;
     position: absolute;
     border-radius: 50px;
     transition: all .1s;
     pointer-events: none;
     cursor: pointer;
+    background-repeat: no-repeat;
+    border: 1px solid white;
 }
 #info {
     min-height: 20vh;
 }
+#next {
+    width: 100%;
+}
 #next.disabled {
     cursor: default;
+    opacity: .3;
+}
+
+h1 {
+    font-family: "BPG Glaho WEB Caps", sans-serif;
+    font-size: 1.5rem;
 }
