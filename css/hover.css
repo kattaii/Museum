@@ -1,0 +1,23 @@
+.wrapper {
+    position: relative;
+    overflow: hidden;
+}
+#image {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#magnifier {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50px;
+    transition: all .1s;
+    pointer-events: none;
+    cursor: pointer;
+}
+#info {
+    min-height: 20vh;
+}
+#next.disabled {
+    cursor: default;
+}
