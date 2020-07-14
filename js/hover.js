@@ -32,7 +32,7 @@ $.get("data.json", function (data) {
             layers.push({
                 src: data[i].src,
                 text: data[i].text,
-                question:  data[i].question,
+                question: data[i].question,
                 points: [{
                     x: data[i].x * sc / 1.6765625,
                     y: data[i].y * sc / 1.6765625,
@@ -41,16 +41,17 @@ $.get("data.json", function (data) {
             });
         }
     }
+    console.log(layers);
     image.style.backgroundImage = 'url(' + layers[lid].src + ')';
     infoBox.innerHTML = document.getElementById(layers[lid].question).innerHTML;
     magnifier.style.backgroundImage = 'url(' + layers[lid + 1].src + ')';
 
     image.addEventListener('mousemove', function (ev) {
         let bcr = image.getBoundingClientRect();
-        magnifier.style.top = ev.y - bcr.top - 49 + 'px';
-        magnifier.style.left = ev.x - bcr.left - 49 + 'px';
-        magnifier.style.backgroundPositionX = -ev.x + 48 + bcr.left  + 'px';
-        magnifier.style.backgroundPositionY = -ev.y + 48 + bcr.top + 'px';
+        magnifier.style.top = ev.y - bcr.top - 39 + 'px';
+        magnifier.style.left = ev.x - bcr.left - 39 + 'px';
+        magnifier.style.backgroundPositionX = -ev.x + 38 + bcr.left + 'px';
+        magnifier.style.backgroundPositionY = -ev.y + 38 + bcr.top + 'px';
     });
 
     image.addEventListener('click', function (ev) {
@@ -76,7 +77,7 @@ $.get("data.json", function (data) {
     });
 
     nextBtn.addEventListener('click', function () {
-        if (!this.classList.contains("disabled")){
+        if (!this.classList.contains("disabled")) {
             infoBox.innerHTML = document.getElementById(layers[lid].question).innerHTML;
             magnifier.style.display = 'block';
             st = true;

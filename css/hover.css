@@ -10,11 +10,11 @@
     background-repeat: no-repeat;
 }
 #magnifier {
-    width: 98px;
-    height: 98px;
+    width: 78px;
+    height: 78px;
     position: absolute;
     border-radius: 50px;
-    transition: all .1s;
+    transition: all 0s;
     pointer-events: none;
     cursor: pointer;
     background-repeat: no-repeat;
@@ -34,4 +34,8 @@
 h1 {
     font-family: "BPG Glaho WEB Caps", sans-serif;
     font-size: 1.5rem;
+}
+p {
+    font-family: "BPG Glaho Traditional", sans-serif;
+    font-size: 1rem;
 }
