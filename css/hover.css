@@ -39,3 +39,7 @@ p {
     font-family: "BPG Glaho Traditional", sans-serif;
     font-size: 1rem;
 }
+
+.select-project button {
+    background-image: url("../img/main_menu_bg.png");
+}
