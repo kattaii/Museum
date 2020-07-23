@@ -31,6 +31,7 @@ $(".select-project .dropdown-item").click(function () {
         $("#templates").html(data);
         $.get(urlPref + "data.json", function (data) {
             $("#project-title").html(data.title);
+            $("#prologue").html("");
             let pnts = data.points;
             for (let i = 0; i < pnts.length; i++) {
                 let layerId = -1;
