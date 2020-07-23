@@ -67,10 +67,10 @@ $(".select-project .dropdown-item").click(function () {
 
             image.addEventListener('mousemove', function (ev) {
                 let bcr = image.getBoundingClientRect();
-                magnifier.style.top = ev.y - bcr.top - 39 + 'px';
-                magnifier.style.left = ev.x - bcr.left - 39 + 'px';
-                magnifier.style.backgroundPositionX = -ev.x + 38 + bcr.left + 'px';
-                magnifier.style.backgroundPositionY = -ev.y + 38 + bcr.top + 'px';
+                magnifier.style.top = ev.y - bcr.top - 29 + 'px';
+                magnifier.style.left = ev.x - bcr.left - 29 + 'px';
+                magnifier.style.backgroundPositionX = -ev.x + 28 + bcr.left + 'px';
+                magnifier.style.backgroundPositionY = -ev.y + 28 + bcr.top + 'px';
             });
 
             image.addEventListener('click', function (ev) {

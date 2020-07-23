@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46f53b2d-3c16-4968-8ebe-ea34cc99f836" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/projects/bolnisi/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/bolnisi/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/hover.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hover.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595331712616</updated>
       <workItem from="1595331718716" duration="10279000" />
-      <workItem from="1595502280072" duration="3140000" />
+      <workItem from="1595502280072" duration="3628000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1595503428702</created>
@@ -62,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595503428702</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1595505871461</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595505871461</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,10 +92,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595503436740">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595505891858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595503436740" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595505891858" />
     <state x="417" y="152" key="git4idea.merge.GitPullDialog" timestamp="1595336222154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
