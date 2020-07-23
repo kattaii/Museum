@@ -76,7 +76,7 @@ $(".select-project .dropdown-item").click(function () {
             image.addEventListener('click', function (ev) {
                 if (st) {
                     let bcr = image.getBoundingClientRect();
-                    let points = layers[lid].points;
+                    let points = layers[lid+1].points;
                     for (let p = 0; p < points.length; p++) {
                         let r = points[p].r;
                         if (Math.abs(ev.x - bcr.left - points[p].x) < r && Math.abs(ev.y - bcr.top - points[p].y) < r && lid < layers.length - 1) {
