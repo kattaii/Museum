@@ -3,72 +3,120 @@
   "points": [
     {
       "src": "img/AllClues.png",
-      "x": 2970,
-      "y": 120,
+      "x": 1770,
+      "y": 80,
       "r": 70,
       "question": "q1",
       "text": "t1"
     },
     {
       "src": "img/Gumbati.png",
-      "x": 1505,
-      "y": 160,
+      "x": 900,
+      "y": 100,
       "r": 50,
       "question": "q2",
       "text": "t2"
     },
     {
       "src": "img/MecxvareNagazi.png",
-      "x": 1585,
-      "y": 570,
-      "r": 100,
+      "x": 950,
+      "y": 340,
+      "r": 80,
       "question": "q3",
       "text": "t3"
     },
     {
       "src": "img/Saxedari.png",
-      "x": 1995,
-      "y": 430,
-      "r": 60,
+      "x": 1185,
+      "y": 260,
+      "r": 100,
       "question": "q4",
       "text": "t4"
     },
     {
       "src": "img/Kintoebi.png",
-      "x": 2160,
-      "y": 420,
-      "r": 60,
-      "question": "q4",
-      "text": "t4"
+      "x": 1285,
+      "y": 250,
+      "r": 50,
+      "question": "q5",
+      "text": "t5"
     },
     {
       "src": "img/Kintoebi.png",
-      "x": 1700,
-      "y": 820,
+      "x": 1020,
+      "y": 485,
       "r": 60,
-      "question": "q4",
-      "text": "t4"
+      "question": "q5",
+      "text": "t5"
     },
     {
       "src": "img/Kintoebi.png",
-      "x": 1470,
-      "y": 500,
+      "x": 70,
+      "y": 480,
       "r": 100,
       "question": "q5",
       "text": "t5"
     },
     {
       "src": "img/Mdinare.png",
-      "x": 555,
-      "y": 750,
+      "x": 155,
+      "y": 470,
       "r": 200,
-      "question": "q5",
-      "text": "t5"
+      "question": "q6",
+      "text": "t6"
     },
     {
       "src": "img/Mdinare.png",
-      "x": 1410,
-      "y": 470,
+      "x": 300,
+      "y": 445,
+      "r": 100,
+      "question": "q6",
+      "text": "t6"
+    },
+    {
+      "src": "img/Mdinare.png",
+      "x": 420,
+      "y": 420,
+      "r": 100,
+      "question": "q6",
+      "text": "t6"
+    },
+    {
+      "src": "img/Mdinare.png",
+      "x": 644,
+      "y": 360,
+      "r": 100,
+      "question": "q6",
+      "text": "t6"
+    },
+    {
+      "src": "img/Mdinare.png",
+      "x": 755,
+      "y": 333,
+      "r": 100,
+      "question": "q6",
+      "text": "t6"
+    },
+    {
+      "src": "img/Mdinare.png",
+      "x": 880,
+      "y": 303,
+      "r": 60,
+      "question": "q6",
+      "text": "t6"
+    },
+    {
+      "src": "img/Mdinare.png",
+      "x": 1042,
+      "y": 287,
+      "r": 30,
+      "question": "q6",
+      "text": "t6"
+    },
+    {
+      "src": "img/Mdinare.png",
+      "x": 845,
+      "y": 281,
       "r": 100,
       "question": "q6",
       "text": "t6"

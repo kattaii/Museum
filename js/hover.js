@@ -15,7 +15,6 @@ let lid = 0;
 let st = true;
 
 $(".select-project .dropdown-item").click(function () {
-    $(".select-project button").html($(this).html());
 
     layers = [];
     lid = 0;

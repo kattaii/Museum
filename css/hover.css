@@ -1,31 +1,36 @@
 .container {
-    width: 979px!important;
+    width: 979px !important;
     background-color: #f3f3f3;
 }
+
 .wrapper {
     position: relative;
     overflow: hidden;
 }
+
 #image {
     background-repeat: no-repeat;
 }
+
 #magnifier {
     width: 78px;
     height: 78px;
     position: absolute;
     border-radius: 50px;
-    transition: all 0s;
     pointer-events: none;
     cursor: pointer;
     background-repeat: no-repeat;
     border: 1px solid white;
 }
+
 #info {
     min-height: 20vh;
 }
+
 #next {
     width: 100%;
 }
+
 #next.disabled {
     cursor: default;
     opacity: .3;
@@ -35,6 +40,7 @@ h1 {
     font-family: "BPG Glaho WEB Caps", sans-serif;
     font-size: 1.5rem;
 }
+
 p {
     font-family: "BPG Glaho Traditional", sans-serif;
     font-size: 1rem;
@@ -42,4 +48,46 @@ p {
 
 .select-project button {
     background-image: url("../img/main_menu_bg.png");
+    border: none;
+}
+
+.select-project {
+    font-family: "BPG Glaho Traditional", sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 4px;
+}
+
+.dropdown-menu {
+    background-color: #5f5f5f;
+    list-style: square;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-item {
+    color: white;
+    cursor: pointer;
+    border-top: 1px solid #6c6c6c;
+    border-bottom: 1px solid #4b4b4b;
+    border-radius: 0;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: white;
+    background-color: gray;
+}
+
+.select-project button:focus, .select-project button:active, .select-project button:active:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+#prologue {
+    margin-left: 3px;
 }

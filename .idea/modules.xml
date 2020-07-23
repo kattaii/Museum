@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/hover.iml" filepath="$PROJECT_DIR$/.idea/hover.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hover-master.iml" filepath="$PROJECT_DIR$/.idea/hover-master.iml" />
     </modules>
   </component>
 </project>
