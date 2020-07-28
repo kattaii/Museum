@@ -109,7 +109,7 @@ $(".select-project .dropdown-item").click(function () { // $=jQuery (mza bibliot
                     magnifier.style.display = 'block'; //manamde gamqrali rom iyo aq chndeba isev. thus .display = 'block'.
                     st = true; //am dros click shegvidzlia (tu ar, aq ki).
                     this.classList.add("disabled"); //next button xdeba disabled bolos, shemdeg etapamde.
-                }
+                } //interaqcia EventListenerebit xdeba, danarcheni stylebis da displayebis cvlilebaa.
             });
         });
     });
