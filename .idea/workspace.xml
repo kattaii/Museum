@@ -56,7 +56,8 @@
       <workItem from="1595331718716" duration="10279000" />
       <workItem from="1595502280072" duration="3864000" />
       <workItem from="1595506356546" duration="2453000" />
-      <workItem from="1595874183471" duration="11343000" />
+      <workItem from="1595874183471" duration="11651000" />
+      <workItem from="1595895670118" duration="609000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1595503428702</created>
@@ -93,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595714575180</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit">
+      <created>1595895464677</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595895464677</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,10 +124,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595714590067">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595895568076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595714590067" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595895568076" />
     <state x="417" y="152" key="git4idea.merge.GitPullDialog" timestamp="1595336222154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

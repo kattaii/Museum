@@ -87,14 +87,14 @@ $(".select-project .dropdown-item").click(function () { // $=jQuery (mza bibliot
                                 infoBox.innerHTML = tmpl.innerHTML;
                             }
                             lid = lid + 1; //lid ar unda iyos bolo layer, thus lid + 1.
-                            image.style.backgroundImage = 'url(' + urlPref + layers[lid].src + ')';
-                            if (lid < layers.length - 1) {
-                                magnifier.style.backgroundImage = 'url(' + urlPref + layers[lid + 1].src + ')';
-                                nextBtn.classList.remove("disabled"); // ?? token ras nishnavs ??
+                            image.style.backgroundImage = 'url(' + urlPref + layers[lid].src + ')'; //img-s shecvla to next layer.
+                            if (lid < layers.length - 1) { //tu boloa:
+                                magnifier.style.backgroundImage = 'url(' + urlPref + layers[lid + 1].src + ')'; // aq zustad ra xdeba?
+                                nextBtn.classList.remove("disabled"); // btn disabled ?? token ras nishnavs ??
                             }
                             st = false;
-                            magnifier.style.display = 'none'; // magnifier qreba
-                            return;
+                            magnifier.style.display = 'none'; // magnifier qreba. display = "none" javascriptshi aqrobs.
+                            return; // ciklebidan da funqciebidan gamosvla. tu ar wer bolomde midis. aq gvaqvs, radgan shuashi weria.
                         }
                     }
                 }
@@ -102,13 +102,13 @@ $(".select-project .dropdown-item").click(function () { // $=jQuery (mza bibliot
 
             nextBtn.addEventListener('click', function () { //nextis btn-s davamatet eventlistener daklikvis dros rom gaaketos:
                 if (!this.classList.contains("disabled")) { //?? aq vaprtxilebt rom "disabled"-s sheicavs ??
-                    let tmpl = document.getElementById(layers[lid].question);
+                    let tmpl = document.getElementById(layers[lid].question); //text change from innerHTML.
                     if (tmpl) {
-                        infoBox.innerHTML = tmpl.innerHTML;
+                        infoBox.innerHTML = tmpl.innerHTML; // ?? ra xdeba ??
                     }
-                    magnifier.style.display = 'block'; //am dros dablokilia magnifier
-                    st = true;
-                    this.classList.add("disabled");
+                    magnifier.style.display = 'block'; //manamde gamqrali rom iyo aq chndeba isev. thus .display = 'block'.
+                    st = true; //am dros click shegvidzlia (tu ar, aq ki).
+                    this.classList.add("disabled"); //next button xdeba disabled bolos, shemdeg etapamde.
                 }
             });
         });
