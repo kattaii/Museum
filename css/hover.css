@@ -1,8 +1,14 @@
 .container {
     width: 979px !important;
     background-color: #f3f3f3;
+    max-width: 979px;
 }
 
+#content {
+    width: 979px;
+    overflow: hidden;
+    margin: 0 auto;
+}
 .wrapper {
     position: relative;
     overflow: hidden;

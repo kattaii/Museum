@@ -10,57 +10,37 @@
     <link rel="stylesheet" href="css/hover.css">
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <img src="img/mus-page-top.png"/>
-    </div>
-    <div class="row" id="prologue">
-        <p> პროექტის ტექსტი</p>
-    </div>
-    <div class="row">
-        <div class="dropdown select-project">
-            <button class="btn btn-secondary dropdown-toggle"
-                    type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                ნახატები
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li class="dropdown-item" href="#" data-museum-project="bolnisi">დღესასწაული ბოლნისში</li>
-                <li class="dropdown-item" href="#" data-museum-project="tbilisi">tbilisi</li>
-            </ul>
+<div id="content">
+    <div class="container">
+        <div class="row">
+            <img src="img/mus-page-top.png"/>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <h1 id="project-title"></h1>
+        <div class="row" id="prologue">
+            <p> პროექტის ტექსტი</p>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <div id="image-wrapper" class="wrapper">
-                <div id="image"></div>
-                <div id="magnifier"></div>
+        <div class="row">
+            <div class="dropdown select-project">
+                <button class="btn btn-secondary dropdown-toggle"
+                        type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ნახატები
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li class="dropdown-item" href="#" data-museum-project="bolnisi">დღესასწაული ბოლნისში</li>
+                    <li class="dropdown-item" href="#" data-museum-project="tbilisi">tbilisi</li>
+                </ul>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8 col-sm-12">
-            <div id="info"></div>
-        </div>
-        <div class="col-md-4 col-sm-12">
-            <button type="button" class="btn btn-secondary disabled" id="next">next</button>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-8 col-sm-12">
-            <div>
-
+        <div class="row">
+            <div class="col-12">
+                <h1 id="project-title"></h1>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <img src="img/mus-page-bottom.png"/>
+        <div class="row project-content">
+        </div>
+        <div class="row">
+            <img src="img/mus-page-bottom.png"/>
+        </div>
     </div>
 </div>
 
@@ -70,8 +50,12 @@
 
 <script src="js/jquery-3.5.1.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 
 <script src="js/hover.js"></script>
 </body>

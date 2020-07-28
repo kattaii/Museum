@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46f53b2d-3c16-4968-8ebe-ea34cc99f836" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/projects/bolnisi/ProjectContent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/hover.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hover.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/hover.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/bolnisi/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects/bolnisi/data.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +61,8 @@
       <workItem from="1595502280072" duration="3864000" />
       <workItem from="1595506356546" duration="2453000" />
       <workItem from="1595874183471" duration="11651000" />
-      <workItem from="1595895670118" duration="609000" />
+      <workItem from="1595895670118" duration="1373000" />
+      <workItem from="1595934496657" duration="4344000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1595503428702</created>
@@ -101,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595895464677</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="comments fur mich">
+      <created>1595896361472</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595896361472</updated>
+    </task>
+    <task id="LOCAL-00008" summary="comments fur mich.1">
+      <created>1595896424669</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595896424669</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,13 +140,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="comments fur mich" />
+    <MESSAGE value="comments fur mich.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="comments fur mich.1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595895568076">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595896451191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595895568076" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595896451191" />
     <state x="417" y="152" key="git4idea.merge.GitPullDialog" timestamp="1595336222154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
